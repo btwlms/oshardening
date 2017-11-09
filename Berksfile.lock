@@ -1,0 +1,18 @@
+DEPENDENCIES
+  compat_resource (~> 12.19.0)
+  jn_sysctl (~> 2.0.1)
+  os-hardening
+    path: .
+    metadata: true
+
+GRAPH
+  accumulator (0.2.0)
+  compat_resource (12.19.0)
+  jn_sysctl (2.0.1)
+    accumulator (>= 0.0.0)
+  ohai (5.2.0)
+  os-hardening (2.1.1)
+    compat_resource (>= 12.16.3)
+    sysctl (<= 0.9.0)
+  sysctl (0.9.0)
+    ohai (>= 4.0)
